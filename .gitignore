@@ -3,6 +3,8 @@
 __pycache__/
 *.pyc
 uv.lock
+*.pyo
+*.egg-info/
 
 # Data & Large Files
 data/
@@ -23,3 +25,8 @@ notebooks/.ipynb_checkpoints/
 
 # OS
 .DS_Store
+
+# dbt
+dbt_payments/target/
+dbt_payments/logs/
+dbt_payments/dbt_packages/
